@@ -6,6 +6,14 @@ class Numbers {
 
         Scanner s = new Scanner(System.in);
 
-        char a = s.next();
+        char xy = s.next();
+        
+        if (xy == a, e, i, o, u && xy == A, E, I, O, U){
+            System.out.println("Alphabet is Vowel.");
+        }else{
+            System.out.println("Alphabet is Cosonent.");
+        }
+        
+        
     }
 }
